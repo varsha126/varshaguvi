@@ -1,7 +1,8 @@
-value=int(input("Enter the number:"))
-if(value%2==0):
-  print("Even")
-elif(value%2!=0):
-  print("Odd")
-else:
+val=int(input("Enter the number:"))
+if(val<0):
   print("invalid")
+elif((val%2)==0):
+  print("Even")
+else:
+  print("Odd")
+

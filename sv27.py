@@ -1,0 +1,12 @@
+vari=int(input())
+xz=vari
+y=0
+while(vari>0):
+  vari1=vari%10
+  vari=vari//10
+  vari2=vari1**3
+  y=y+vari2
+if(xz==y):
+  print("yes")
+else:
+  print("no")

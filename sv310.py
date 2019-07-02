@@ -1,0 +1,5 @@
+ac,od=map(int,input().split())
+vs,ch=map(int,input().split())
+by=abs(ac-vs)
+yz=abs(od-ch)
+print(by,yz)

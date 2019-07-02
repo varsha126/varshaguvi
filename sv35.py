@@ -1,0 +1,5 @@
+vaz=int(input())
+sha=list(map(int,input().split()[:vaz]))
+sha.sort()
+d=int((len(sha))/2)
+print(sha[d])

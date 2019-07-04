@@ -1,0 +1,2 @@
+vg=input()
+print(vg)

@@ -1,20 +1,20 @@
-a5=input().split()
-tol=int(a5[0])
-cn=int(a5[1])
-l3=input().split()
-l3=[int(i) for i in l]
-l3=sorted(l,reverse=True)
+aa3=input().split()
+sum1=int(aa3[0])
+con=int(aa3[1])
+lv=input().split()
+lv=[int(i) for i in lv]
+lv=sorted(l,reverse=True)
 tem=0
-cnt=0
-for i in range(0,len(l3)):
+count=0
+for i in range(0,len(l)):
   while True:
-    if(tem==cn):
+    if(tem==con):
       break
-    elif(tem>cn):
-      cnt-=1
-      tem-=l[i]
+    elif(tem>con):
+      count-=1
+      tem-=lv[i]
       break
-    elif(tem<cn):
-      tem+=l3[i]
-      cnt+=1
-print(cnt)
+    elif(tem<con):
+      tem+=lv[i]
+      count+=1
+print(count)
